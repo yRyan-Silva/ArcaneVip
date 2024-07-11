@@ -1,0 +1,1 @@
+A simple vip plugin.
