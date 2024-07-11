@@ -1,0 +1,8 @@
+name: ArcaneVip
+version: 1.0
+author: Ryan
+main: me.ryan.arcanevip.ArcaneVip
+depend:
+  - InventoryHelper
+  - StonksCore
+commands:

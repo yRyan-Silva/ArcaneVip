@@ -1,0 +1,18 @@
+Vips:
+  vip01:
+    Name: '&b&lVIP 01'
+    Permission: '' # Caso o jogador precise de alguma permissão para utilizar o item de ativação
+    Title:
+      Line1: '&b&l{player}'
+      Line2: '&fAcabou de tornar-se &b&lVIP 01'
+    Item Stack:
+      Material: 'PAPER'
+      Name: '&b&lVIP 01'
+      Lore:
+        - '&7Clique com o botão direito'
+        - '&7para ativar o &b&lVIP 01'
+        - '&7durante {days} dias.'
+    Commands Give: # Quando o player ganhar o vip
+      - 'lp user {player} parent add vip01'
+    Commands Remove: # Quando o vip expirar ou for removido
+      - 'lp user {player} parent remove vip01'

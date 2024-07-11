@@ -1,0 +1,21 @@
+Inventory:
+  Vip:
+    Name: 'Vip - Tempo'
+    Lines: 3
+    Items:
+      Vip:
+        Slot: 13
+        Name: '{name}'
+        Lore:
+          - '&7Expira em: &f{expiration}'
+      Vip Eternal:
+        Slot: 13
+        Name: '{name}'
+        Lore:
+          - '&7Parabéns seu vip é &fEterno&7!'
+      Vip Null:
+        Slot: 13
+        Name: '&cInfelizmente você não possui vip!'
+        Lore:
+          - '&7Adquira &fvantagens &7no nosso servidor,'
+          - '&7acessando nosso site: &f&nloja.redestonks.com'
